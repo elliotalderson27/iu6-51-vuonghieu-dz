@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./hw < test/03.test > test/03.result
+diff test/03.sample test/03.result
+
